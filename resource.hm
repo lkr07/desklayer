@@ -1,0 +1,4 @@
+// Microsoft Visual C++ generated Help ID include file.
+// Used by resource.rc
+//
+#define HIDC_HELP                       0x80650405    // IDD_DIALOG1

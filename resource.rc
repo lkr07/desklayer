@@ -1,0 +1,162 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+// Generated Help ID header file
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.hm"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Italian (Italy) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ITA)
+#ifdef _WIN32
+LANGUAGE LANG_ITALIAN, SUBLANG_ITALIAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 255, 227
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CLIENTEDGE
+CAPTION "DeskLayer"
+FONT 8, "Comic Sans MS", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,43,205,50,14
+    PUSHBUTTON      "Close",IDCLOSE,130,205,50,14
+    LTEXT           "Select a layout for your desktop:",IDC_STATIC,15,17,91,15
+    PUSHBUTTON      "Grid Layout",IDC_GRID,22,82,83,22
+    PUSHBUTTON      "Disable Layout",IDC_NOLAY,20,119,86,23
+    LISTBOX         IDC_LIST,152,59,90,45,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_TOADD,151,39,73,12,ES_AUTOHSCROLL
+    LTEXT           "Currently selected layout:",IDC_STATIC,151,139,88,9
+    EDITTEXT        IDC_CURRENT,167,155,74,12,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "ADD",IDC_ADD,231,39,17,12
+    PUSHBUTTON      "Remove selected",IDC_REMOVE,150,107,91,10
+    LTEXT           "If you want that windows from a program can't be added to layout add here the program .exe name:",IDC_STATIC,143,11,105,25
+    CONTROL         "Add automatically windows to layout",IDC_AUTO,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,177,121,10
+    CONTROL         "Don't start DeskLayer on Windows startup",IDC_STARTUP,
+                    "Button",BS_AUTOCHECKBOX | BS_NOTIFY | WS_TABSTOP,20,190,157,10
+    PUSHBUTTON      "Border Layout",IDC_BORDIF,22,41,81,23
+    PUSHBUTTON      " Settings",IDC_SET,109,41,30,22
+    GROUPBOX        "Layout Settings",IDC_STATIC,7,3,134,150
+    GROUPBOX        "Programs Settings",IDC_STATIC,141,3,107,121
+    GROUPBOX        "Additional options",IDC_STATIC,7,167,160,35
+    PUSHBUTTON      "?",IDC_HELP,229,213,19,11,0,0,HIDC_HELP
+END
+
+IDD_DIALOG2 DIALOGEX 0, 0, 209, 143
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "DeskLayer"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,152,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,152,24,50,14
+    EDITTEXT        IDC_WSY,58,67,65,13,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_WWX,59,92,64,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_WEX,59,115,63,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "North Side Y Weight",IDC_STATIC,7,41,47,16
+    LTEXT           "South Side Y Weight",IDC_STATIC,7,65,52,16
+    LTEXT           "West Side X Weight",IDC_STATIC,7,91,48,18
+    LTEXT           "East Side X Weight",IDC_STATIC,8,116,49,19
+    LTEXT           "Here you can set the dimension of border cells that automatically set the central cell size for Border Layout:",IDC_STATIC,7,7,116,32
+    LTEXT           "pixels",IDC_STATIC,133,43,21,10
+    LTEXT           "pixels",IDC_STATIC,133,67,23,10
+    LTEXT           "pixels",IDC_STATIC,133,93,24,10
+    LTEXT           "pixels",IDC_STATIC,133,115,28,10
+    PUSHBUTTON      "Reset Settings",IDC_RESET,153,42,49,15
+    EDITTEXT        IDC_WNY,57,42,66,14,ES_AUTOHSCROLL | ES_NUMBER
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 248
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 224
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 202
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 136
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON                ICON                    "screen.ico"
+#endif    // Italian (Italy) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
