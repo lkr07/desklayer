@@ -1,6 +1,7 @@
-# desklayer
-Desklayer is a windows arrangement utility I developed while studying at University. It is the result of a project work for my BSc
-thesis and it has not been mantained since then. 
+# Desklayer
+Desklayer is the result of my thesis work on the theme "Developing an advanced user interface" (2007), the program aims to simplify the desktop experience and order visible windows on the desktop.
+
+Desklayer is a windows manager that provides to arrange windows on the desktop in various types of layout. Desklayer allows you to move windows across all positions of the layout and arrange the windows size and the layout arrangement dynamically according to the size of the downsized window. Desklayer also re-arrange the layout in consequence of events that involve windows visible on the screen. 
 
 Main Features
 
