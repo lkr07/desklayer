@@ -26,6 +26,3 @@ Short manual
     CTRL+BACKSPACE : restore windows positions to their previous arrangement on the desktop (before applying Desklayer's layout)
 
 The program is written in C++ using Win32 APIs.
-
-More info, screenshots and videos of the features here:
-http://www.lkrprojects.com/home.html
